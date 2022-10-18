@@ -1,0 +1,37 @@
+@import './../../sass/fonts.scss';
+@import './../../sass/colors.scss';
+
+.main-nav {
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background: $color-white;
+
+    .navbar {
+        padding: 0;
+        
+        .navbar-brand {
+            img {
+                max-width: 150px;
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $color-black;
+                    font-size: 15px;
+                    font-weight: 600;
+                    padding: 0;
+                    margin: 10px 30px;
+
+                    &:hover {
+                        color: $color-blue;
+                    }
+                }
+            }
+        }
+    }
+}
