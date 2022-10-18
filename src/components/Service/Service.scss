@@ -1,0 +1,19 @@
+.service-box {
+    border: 1px solid #1819451a;
+    padding: 15px;
+    border-radius: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+
+    .service-text {
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}

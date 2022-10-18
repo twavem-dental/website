@@ -1,0 +1,19 @@
+@import '../../sass/colors.scss';
+
+.section-title {
+    margin-bottom: 100px;
+
+    p {
+        color: $color-blue;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        max-width: 500px;
+    }
+}

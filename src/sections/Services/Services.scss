@@ -1,0 +1,31 @@
+@import '../../sass/colors.scss';
+
+.service-section {
+    .service-title-text {
+        padding-top: 50px;
+        max-width: 600px;
+        margin: 0 0 0 auto;
+        font-weight: 500;
+    }
+
+    .services-link {
+        margin: 50px 0 30px;
+
+        a {
+            color: $color-blue;
+            text-decoration: none;
+            font-weight: 700;
+            background: #583fbc1e;
+            padding: 15px 25px;
+            display: inline-block;
+            border-radius: 15px;
+
+            svg {
+                margin-left: 10px;
+                font-size: 20px;
+                top: -2px;
+                position: relative;
+            }
+        }
+    }
+}

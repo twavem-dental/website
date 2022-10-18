@@ -1,0 +1,37 @@
+@import '../../sass/colors.scss';
+@import '../../sass/fonts.scss';
+
+.icon-area {
+    background: #DBDEFA;
+    padding: 80px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+    .icon-box {
+        background: $color-white;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 20px;
+        position: relative;
+        margin: auto;
+        z-index: 0;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100px;
+            height: 100px;
+            background: $color-white;
+            top: -10px;
+            left: -10px;
+            z-index: -1;
+            opacity: .2;
+            border-radius: 20px;
+        }
+
+        img {
+            max-width: 50px;
+        }
+    }
+}
