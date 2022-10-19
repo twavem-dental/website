@@ -1,0 +1,43 @@
+@import '../../sass/colors.scss';
+
+.emergency-section {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+    .emergency-img {
+        text-align: right;
+        margin-right: 60px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 30px;
+
+        &::before {
+            position: absolute;
+            content: "";
+            width: 45%;
+            height: 125%;
+            top: -12%;
+            left: 35%;
+            background: #DBEFFA;
+            z-index: -1;
+            border-radius: 20px;
+        }
+    }
+
+    .emergency-text {
+        max-width: 700px;
+        margin-bottom: 30px;
+
+        .section-title {
+            margin-bottom: 30px;
+
+            h2 {
+                max-width: inherit;
+            }
+        }
+
+        .theme-btn {
+            margin-top: 80px;
+        }
+    }
+}
