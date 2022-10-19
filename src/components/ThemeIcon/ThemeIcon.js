@@ -3,10 +3,8 @@ import './ThemeIcon.scss';
 
 const ThemeIcon = (icon) => {
     return (
-        <div className='icon-area'>
-            <div className='icon-box'>
-                <img src={icon.icon} alt="icon" />
-            </div>
+        <div className='icon-box'>
+            <img src={icon.icon} alt="icon" />
         </div>
     );
 };

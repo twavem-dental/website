@@ -9,7 +9,9 @@ const Service = ({serviceList}) => {
         <div className='col-lg-3'>
            <div className="service-box">
                 <div className="service-icon">
-                   <ThemeIcon icon={icon} />
+                    <div className='icon-area'>
+                    <ThemeIcon icon={icon} />
+                    </div>
                 </div>
                 <div className="service-text">
                     <h3>{title}</h3>
