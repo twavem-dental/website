@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
+import Appointment from '../sections/Appointment/Appointment';
 import Banner from '../sections/Banner/Banner';
 import Blogs from '../sections/Blogs/Blogs';
 import Emergency from '../sections/Emergency/Emergency';
@@ -19,6 +20,7 @@ const Home = () => {
             <Expert />
             <Testimonial />
             <Blogs />
+            <Appointment />
         </>
     );
 };
