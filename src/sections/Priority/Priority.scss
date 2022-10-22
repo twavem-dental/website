@@ -1,0 +1,42 @@
+@import '../../sass/colors.scss';
+
+.priority-section {
+    padding-bottom: 150px;
+    
+    .priority-img {
+        text-align: right;
+        margin-right: 60px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 30px;
+
+        &::before {
+            position: absolute;
+            content: "";
+            width: 45%;
+            height: 65%;
+            top: -12%;
+            left: 30%;
+            background: #DBEFFA;
+            z-index: -1;
+            border-radius: 20px;
+        }
+    }
+
+    .priority-text {
+        max-width: 700px;
+        margin-bottom: 30px;
+
+        .section-title {
+            margin-bottom: 30px;
+
+            h2 {
+                max-width: inherit;
+            }
+        }
+
+        .theme-btn {
+            margin-top: 80px;
+        }
+    }
+}
