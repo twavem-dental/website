@@ -2,9 +2,9 @@ import React from 'react';
 import './IconList.scss';
 import ThemeIcon from '../ThemeIcon/ThemeIcon';
 
-const IconList = (props) => {
+const IconList = ({icon, title, description}) => {
 
-    const {icon, title, description} = props.singleFeature;
+    console.log(icon, title, description);
 
     return (
         <div className="col-lg-6">

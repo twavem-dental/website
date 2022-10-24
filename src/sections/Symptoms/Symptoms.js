@@ -1,14 +1,14 @@
 import React from 'react';
 import './Symptoms.scss';
+import IconList from '../../components/IconList/IconList';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import iconOne from '../../assets/symptoms/1.png';
-import iconTwo from '../../assets/symptoms/1.png';
-import iconThree from '../../assets/symptoms/1.png';
-import iconFour from '../../assets/symptoms/1.png';
-import iconFive from '../../assets/symptoms/1.png';
+import iconTwo from '../../assets/symptoms/2.png';
+import iconThree from '../../assets/symptoms/3.png';
+import iconFour from '../../assets/symptoms/4.png';
+import iconFive from '../../assets/symptoms/5.png';
 
 const Symptoms = () => {
-
     const symptomsData = [
         {
             'icon' : iconOne,
@@ -39,12 +39,24 @@ const Symptoms = () => {
 
     return (
         <section className='symptoms-section section-common pt-100 pb-70'>
-            <div className="container-fluid">
+            <div className="container">
                 <SectionTitle 
                     subTitle="Symptoms"
                     title="Sign and symptoms you need root canal"
                     description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
                 />
+
+                <div className="row">
+                    {
+                        symptomsData.map(singleSymptoms => 
+                            <IconList 
+                                icon={singleSymptoms.icon}
+                                title={singleSymptoms.title}
+                                description={singleSymptoms.description}
+                            />
+                        )
+                    }
+                </div>
             </div>
         </section>
     );
