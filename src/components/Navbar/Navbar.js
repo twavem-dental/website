@@ -7,16 +7,20 @@ const Navbar = () => {
 
     const navbarItems = [
         {
+            name: 'Home',
+            path: '/',
+        },
+        {
             name: 'About Us',
             path: '/about',
         },
         {
-            name: 'New Patient',
-            path: '/newpatient',
+            name: 'Single Service',
+            path: '/singleservice',
         },
         {
-            name: 'Our Services',
-            path: '/services',
+            name: 'Blogs',
+            path: '/blogs',
         },
         {
             name: 'Contact Us',

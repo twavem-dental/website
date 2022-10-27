@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ThemeIcon from '../ThemeIcon/ThemeIcon';
 import './Service.scss';
 
@@ -14,7 +15,7 @@ const Service = ({serviceList}) => {
                     </div>
                 </div>
                 <div className="service-text">
-                    <h3>{title}</h3>
+                    <h3><Link to="/singleservice">{title}</Link></h3>
                     <p>{description}</p>
                 </div>
            </div>

@@ -18,7 +18,7 @@ const BlogCard = ({blog}) => {
                 </div>
                 <div className="blog-text">
                     <span><Link to="/">{category}</Link></span>
-                    <h3><Link to="/">{title}</Link></h3>
+                    <h3><Link to="/singleblog">{title}</Link></h3>
                     <p>{description}</p>
                 </div>
             </div>
