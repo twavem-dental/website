@@ -24,7 +24,7 @@ const Banner = () => {
 
                                     <div className="banner-bottom">
                                         <div className="theme-btn">
-                                            <Link to="/">Book an appointment</Link>
+                                            <Link to="/contact">Book an appointment</Link>
                                         </div>
 
                                         <div className="banner-call">
