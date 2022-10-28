@@ -137,3 +137,27 @@ footer {
         }
     }
 }
+
+// Mobile Responsive
+@media (max-width:575px){
+    footer {
+        .contact-list {
+            margin-bottom: 10px;
+
+            .contact-icon {
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                border-radius: 10px;
+
+                &::before {
+                    width: 60px;
+                    height: 60px;
+                    top: -8px;
+                    left: -8px;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}

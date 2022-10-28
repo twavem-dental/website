@@ -41,3 +41,25 @@
         }
     }
 }
+
+// Mobile Responsive
+@media (max-width: 575px) {
+    .emergency-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .emergency-img {
+            margin-right: 0;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        .emergency-text {
+            .theme-btn {
+                margin-top: 25px;
+            }
+        }
+    }
+}

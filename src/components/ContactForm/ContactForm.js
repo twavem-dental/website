@@ -42,6 +42,9 @@ const ContactForm = () => {
                 </div>
 
                 <div className="col-lg-6">
+                    <button type="submit" class="btn appointment-btn">Book an appointment</button>
+                </div>
+                <div className="col-lg-6">
                     <div className="appointment-call">
                         <div className='icon'>
                             <img src={icon} alt="icon" />
@@ -51,9 +54,6 @@ const ContactForm = () => {
                             <h6>03 482 394 123</h6>
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-6 text-right">
-                    <button type="submit" class="btn appointment-btn">Book an appointment</button>
                 </div>
             </div>
         </form>

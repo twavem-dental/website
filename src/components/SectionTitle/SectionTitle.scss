@@ -23,3 +23,18 @@
         font-weight: 500;
     }
 }
+
+// Mobile Responsive
+@media (max-width: 575px){
+    .section-title {
+        margin-bottom: 20px;
+
+        span {
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }        
+    }
+}

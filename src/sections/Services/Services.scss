@@ -29,3 +29,13 @@
         }
     }
 }
+
+//Mobile Responsive
+@media (max-width: 575px){
+    .service-section {
+        .service-title-text {
+            padding-top: 0;
+            margin-bottom: 10px;
+        }
+    }
+}
