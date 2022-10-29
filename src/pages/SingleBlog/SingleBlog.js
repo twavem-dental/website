@@ -1,10 +1,14 @@
 import React from 'react';
 import './SingleBlog.scss';
-import blogBanner from '../../assets/singleBlog.png';
 import Navbar from '../../components/Navbar/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import BlogData from '../../sections/Blogs/BlogData';
 
 const SingleBlog = () => {
+
+    const {url} = useParams();
+    const blog = BlogData.find(blog => blog.url === url);
+    const {title, img} = blog;
 
     return (
         <>
@@ -17,8 +21,8 @@ const SingleBlog = () => {
                                 <p className="single-blog-category">
                                     TECHNOLOGY
                                 </p>
-                                <h2 className="single-blog-title">New Technology Make for Better Dental  Operation</h2>
-                                <img className='single-blog-banner' src={blogBanner} alt="blog banner"/>
+                                <h2 className="single-blog-title">{title}</h2>
+                                <img className='single-blog-banner' src={img} alt="blog banner"/>
                                 <p className="single-blog-text">The paper discusses the use of epoxy resins in construction and repair of offshore concrete structures. Typical properties of resin systems are described, and the range of conditions encountered in practice and the development of a wide range of epoxy systems for a variety of applications are discussed. Several applications such as surface and underwater repairs, and the use of epoxy resins as curing membranes, and to seal cracks and joints are described in detail. It is shown that careful selection of materials and good quality of workmanship are essential to derive the maximum benefit from the use of epoxy systems. A wide range of properties could be obtained from epoxies to suit the requirements of the designer and the contractor.
 
                                 To this day, it’s not entirely clear which seven lines the article referenced. The prevailing theory is that it’s the roughly seven lines of curl it took to create a Charge. However, a search for the seven lines of code ultimately misses the point: the ability to open up a terminal, run this curl snippet, then immediately see a successful credit card payment felt like seven lines of code. It’s unlikely that a developer believed a production-ready payments integration involved literally only seven lines of code. But taking something as complex as credit card processing and reducing.</p>

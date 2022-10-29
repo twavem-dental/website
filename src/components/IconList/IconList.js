@@ -3,9 +3,6 @@ import './IconList.scss';
 import ThemeIcon from '../ThemeIcon/ThemeIcon';
 
 const IconList = ({icon, title, description}) => {
-
-    console.log(icon, title, description);
-
     return (
         <div className="col-lg-6">
             <div className="icon-list">
