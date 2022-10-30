@@ -80,3 +80,30 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 20px;
     }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+    .section-common {
+        margin: 0 15px;
+        border-radius: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+}
+
+// Medium Responsive
+@media (min-width: 758px) and (max-width: 991px) {
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+}

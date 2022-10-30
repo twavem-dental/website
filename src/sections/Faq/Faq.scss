@@ -1,5 +1,4 @@
 .faq-section {
-
     .section-title {
         text-align: center;
         margin-bottom: 30px;
@@ -11,5 +10,12 @@
                 font-weight: 600;
            }
         }
+    }
+}
+
+// Mobile Responsive
+@media (max-width: 575px) {
+    .faq-section {
+        padding-bottom: 50px;
     }
 }

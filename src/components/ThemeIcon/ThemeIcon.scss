@@ -33,7 +33,26 @@
 // Mobile Responsive
 @media (max-width: 575px) {
     .icon-box {
-        width: 70px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 8px;
+
+        &::before {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+        }
+
+        img {
+            max-width: 25px;
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .icon-box {
+        width: 40px;
         height: 40px;
         line-height: 40px;
         border-radius: 8px;

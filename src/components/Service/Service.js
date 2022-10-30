@@ -7,7 +7,7 @@ const Service = ({serviceList}) => {
     const {title,description, icon} = serviceList;
  
     return (
-        <div className='col-lg-3'>
+        <div className='col-lg-3 col-md-4 col-sm-6'>
            <div className="service-box">
                 <div className="service-icon">
                     <div className='icon-area'>

@@ -9,7 +9,7 @@ const Expert = () => {
         <section className='expert-section'>
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="expert-text">
                             <SectionTitle 
                                 subTitle="EXPERTS IN DENTAL"
@@ -33,7 +33,7 @@ const Expert = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="expert-img">
                             <img src={expertImg} alt="expert" />
                         </div>

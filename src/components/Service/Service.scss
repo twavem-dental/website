@@ -33,3 +33,30 @@
         }
     }
 }
+
+// Small Device Responsive
+@media (min-width: 576px) and (max-width: 767px) {
+    .service-box {
+        .icon-area {
+            padding: 50px;
+        }
+    }
+}
+
+// Medium Device Responsive
+@media (min-width: 768px) and (max-width: 991px) {
+    .service-box {
+        .icon-area {
+            padding: 50px;
+        }
+    }
+}
+
+// Medium Device Responsive
+@media (min-width: 992px) and (max-width: 1199px) {
+    .service-box {
+        .icon-area {
+            padding: 50px;
+        }
+    }
+}

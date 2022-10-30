@@ -40,3 +40,25 @@
         }
     }
 }
+
+
+// Mobile Responsive
+@media (max-width: 575px) {
+    .priority-section {
+        padding-bottom: 20px;
+
+        .priority-img {
+            margin-right: 0;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        .priority-text {
+            .theme-btn {
+                margin-top: 20px;
+            }
+        }
+    }
+}
