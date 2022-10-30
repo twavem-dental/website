@@ -9,12 +9,12 @@ const Priority = () => {
         <section className='priority-section emergency-section'>
             <div className="container-fluid">
                 <div className="row align-items-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="priority-img">
                             <img src={priorityImg} alt="Emergency" />
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="priority-text">
                             <SectionTitle 
                                 subTitle="OUR PRIORITY" 
