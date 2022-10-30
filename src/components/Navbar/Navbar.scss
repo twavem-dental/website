@@ -40,6 +40,7 @@
 @media (max-width: 575px) {
     .main-nav {
         padding: 10px 0;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
         .navbar {
             .navbar-nav {
@@ -56,6 +57,7 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .main-nav {
         padding: 10px 0;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
         .navbar {
             .navbar-nav {
@@ -73,6 +75,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .main-nav {
         padding: 15px 0;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
         .navbar {
             .navbar-nav {
@@ -89,6 +92,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
     .main-nav {
         padding: 20px 0;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
         .navbar {
             .navbar-nav {

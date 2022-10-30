@@ -6,7 +6,7 @@ const BlogCard = ({blog}) => {
     const {title, img, description, category,url} = blog;
 
     return (
-        <div className='col-lg-4'>
+        <div className='col-lg-4 col-md-6'>
             <div className="blog-card">
                 <div className="blog-img">
                     <img src={img} alt="blog"/>

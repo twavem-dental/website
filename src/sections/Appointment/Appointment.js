@@ -12,7 +12,7 @@ const Appointment = () => {
         <section className='appointment-section pb-70'>
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 col-md-6">
                         <div className="google-map">
                             <iframe src={mapLink}></iframe>
 
@@ -22,7 +22,7 @@ const Appointment = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 col-md-6">
                         <div className="appointment-form-area">
                             <SectionTitle 
                             subTitle="BOOK APPOINTMENT"
