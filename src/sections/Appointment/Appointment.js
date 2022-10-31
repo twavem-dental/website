@@ -14,7 +14,7 @@ const Appointment = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-md-6">
                         <div className="google-map">
-                            <iframe src={mapLink}></iframe>
+                            <iframe title='map' src={mapLink}></iframe>
 
                             <div className="location-name">
                                 <AiFillHome />
