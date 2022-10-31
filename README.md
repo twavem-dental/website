@@ -4,7 +4,9 @@
 **Dentalist** is a Modern Responsive Website for Dental Clinic. It is built
 with ReactJS, Bootstrap, and Sass. Any Dental clinic can use
 this template to bring their business online or increase business visibility.
+
 ## Live View
+[Dentalist](https://dentalist.netlify.app/)
 
 ## Tech Stack
 React, Bootstrap, SASS, React Router, React Slick, React Icons and AOS
