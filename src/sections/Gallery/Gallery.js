@@ -18,32 +18,32 @@ const Gallery = () => {
                     description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
                 />
                 <div className="row">
-                    <div className="col-lg-5">
+                    <div className="col-md-5 col-sm-6">
                         <div className="gallery-img">
                             <img src={imgOne} alt="gallery" />
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-md-3 col-sm-6">
                         <div className="gallery-img">
                             <img src={imgTwo} alt="gallery" />
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-md-4 col-sm-6">
                         <div className="gallery-img">
                             <img src={imgThree} alt="gallery" />
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-md-3 col-sm-6">
                         <div className="gallery-img">
                             <img src={imgFour} alt="gallery" />
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-md-4 col-sm-6">
                         <div className="gallery-img">
                             <img src={imgFive} alt="gallery" />
                         </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-md-5 col-sm-6">
                         <div className="gallery-img">
                             <img src={imgSix} alt="gallery" />
                         </div>

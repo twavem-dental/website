@@ -48,7 +48,7 @@ const Team = () => {
                 <div className="row">
                     {
                         teams.map (team => 
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 col-sm-6">
                                 <div className="team-card">
                                     <div className="team-img">
                                         <img src={team.img} alt="" />

@@ -9,3 +9,14 @@
         margin-bottom: 10px;
     }
 }
+
+// Small Device Responsive
+@media (max-width: 575px){
+    .page-title {
+        margin: 100px auto 50px;
+    
+        h2 {
+            font-size: 20px;
+        }
+    }
+}

@@ -35,3 +35,12 @@
         }
     }
 }
+
+// Small Device Responsive
+@media (max-width: 575px) {
+    .team-section {
+        .pt-5 {
+            padding-top: 0 !important;
+        }
+    }
+}
