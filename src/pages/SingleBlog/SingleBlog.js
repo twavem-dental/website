@@ -3,6 +3,7 @@ import './SingleBlog.scss';
 import Navbar from '../../components/Navbar/Navbar';
 import { Link, useParams } from 'react-router-dom';
 import BlogData from '../../sections/Blogs/BlogData';
+import Footer from '../../sections/Footer/Footer';
 
 const SingleBlog = () => {
 
@@ -65,6 +66,7 @@ const SingleBlog = () => {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     );
 };

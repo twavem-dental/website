@@ -70,7 +70,7 @@ const Testimonial = () => {
     };
 
     return (
-        <section className='testimonail-section section-bg section-common pt-100 pb-70'>
+        <section className='testimonail-section section-bg section-common pt-100 pb-70' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

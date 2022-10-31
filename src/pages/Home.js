@@ -11,18 +11,19 @@ import Services from '../sections/Services/Services';
 import Testimonial from '../sections/Testimonial/Testimonial';
 
 const Home = () => {
+
     return (
         <>
-            <Navbar />
-            <Banner />
-            <Services />
-            <Emergency />
+            <Navbar/>
+            <Banner/>
+            <Services/>
+            <Emergency/>
             <Features />
-            <Expert />
-            <Testimonial />
-            <Blogs />
-            <Appointment />
-            <Footer />
+            <Expert/>
+            <Testimonial/>
+            <Blogs/>
+            <Appointment/>
+            <Footer/>
         </>
     );
 };

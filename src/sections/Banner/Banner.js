@@ -11,6 +11,7 @@ import shapeThree from '../../assets/banner/vector_03.png';
 import shapeFour from '../../assets/banner/pattern.png';
 
 const Banner = () => {
+
     return (
         <section className='section-bg section-common banner-section'>
             <div className="d-table">
@@ -18,7 +19,7 @@ const Banner = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                <div className="banner-text">
+                                <div className="banner-text" data-aos="fade-up" data-aos-duration="2000">
                                     <h1>Entrust your smile to professional</h1>
                                     <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
 
@@ -41,7 +42,7 @@ const Banner = () => {
                             </div>
 
                             <div className="col-lg-6">
-                                <div className="banner-img-area">
+                                <div className="banner-img-area" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
                                     <div className="banner-img">
                                         <img src={bannerImg} alt="banner model" />
                                     </div>

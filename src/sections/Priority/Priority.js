@@ -6,7 +6,7 @@ import './Priority.scss';
 
 const Priority = () => {
     return (
-        <section className='priority-section emergency-section'>
+        <section className='priority-section emergency-section' data-aos="fade-up" data-aos-duration="2000">
             <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
