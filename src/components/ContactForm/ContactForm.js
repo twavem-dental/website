@@ -23,6 +23,9 @@ const ContactForm = () => {
                         <label>Service</label>
                         <select class="form-control">
                             <option>Teeth Whitening</option>
+                            <option>Teeth Whitening</option>
+                            <option>Teeth Whitening</option>
+                            <option>Teeth Whitening</option>
                         </select>
                     </div>
                 </div>
@@ -30,6 +33,9 @@ const ContactForm = () => {
                     <div class="form-group">
                         <label>Department</label>
                         <select class="form-control">
+                            <option>Select Department</option>
+                            <option>Select Department</option>
+                            <option>Select Department</option>
                             <option>Select Department</option>
                         </select>
                     </div>
