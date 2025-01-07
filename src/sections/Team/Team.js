@@ -24,6 +24,22 @@ const Team = () => {
         {
             'img': imgFour,
             'name': 'Jenny Wilson'
+        },
+        {
+            'img': imgFour,
+            'name': 'Jenny Wilson'
+        },
+        {
+            'img': imgFour,
+            'name': 'Jenny Wilson'
+        },
+        {
+            'img': imgFour,
+            'name': 'Jenny Wilson'
+        },
+        {
+            'img': imgFour,
+            'name': 'Jenny Wilson'
         }
     ]
 
@@ -35,13 +51,13 @@ const Team = () => {
                     <div className="col-lg-7">
                         <SectionTitle 
                             subTitle="Meet our Team"
-                            title="Get to know the dentalist
-                            dental Team"
+                            title="Get to know the Twamev
+                            Dental Team"
                         />
                     </div>
 
                     <div className="col-lg-5">
-                        <p className='pt-5'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <p className='pt-5'>Passionate about dentistry and patient care, our team works to bring you the best in modern dental treatments.</p>
                     </div>
                 </div>
 

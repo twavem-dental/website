@@ -1,7 +1,8 @@
 @import '../../sass/colors.scss';
 
 .priority-section {
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
     .priority-img {
         text-align: right;
@@ -17,7 +18,7 @@
             height: 65%;
             top: -12%;
             left: 30%;
-            background: #DBEFFA;
+            background: #f7ddbf;
             z-index: -1;
             border-radius: 20px;
         }
@@ -36,7 +37,7 @@
         }
 
         .theme-btn {
-            margin-top: 80px;
+            margin-top: 40px;
         }
     }
 }

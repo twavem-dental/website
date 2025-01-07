@@ -16,7 +16,7 @@ const Services = () => {
                         <SectionTitle title="Feel amazing about your oral health" subTitle="Services"/>
                     </div>
                     <div className="col-lg-6 col-sm-6">
-                        <p className='service-title-text'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <p className='service-title-text'>Explore our comprehensive dental services, designed to keep your smile healthy and radiant. From preventive care to advanced treatments, we’ve got you covered.</p>
                     </div>
                 </div>
 
@@ -25,13 +25,6 @@ const Services = () => {
                         ServicesData.map(singleService => <Service serviceList={singleService}/>)
                     }
                 </div>
-            </div>
-
-            <div className="services-link text-center">
-                <Link to='/'>
-                    View all service list
-                    <BsFillArrowRightCircleFill/>
-                </Link>
             </div>
         </section>
     );

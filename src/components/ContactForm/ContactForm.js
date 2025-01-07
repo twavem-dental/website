@@ -15,28 +15,31 @@ const ContactForm = () => {
                 <div className="col-lg-6">
                     <div class="form-group">
                         <label>E-mail Address</label>
-                        <input type="email" class="form-control" placeholder="Enter email address..." />
+                        <input class="form-control" placeholder="Enter email address..." />
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <div class="form-group">
+                        <label>Contact Number</label>
+                        <input class="form-control" placeholder="Enter contact number..." />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div class="form-group">
                         <label>Service</label>
                         <select class="form-control">
-                            <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
-                        </select>
-                    </div>
-                </div>
-                <div className="col-lg-6">
-                    <div class="form-group">
-                        <label>Department</label>
-                        <select class="form-control">
-                            <option>Select Department</option>
-                            <option>Select Department</option>
-                            <option>Select Department</option>
-                            <option>Select Department</option>
+                            <option>Teeth Cleaning & Whitening</option>
+                            <option>Root Canal Treatment (RCT)</option>
+                            <option>Crown & Bridges</option>
+                            <option>Dental Implants</option>
+                            <option>Complete Dentures</option>
+                            <option>Braces & Invisalign</option>
+                            <option>Smile Design</option>
+                            <option>Kids Dentistry </option>
+                            <option>Full Mouth Rehabilitation</option>
+                            <option>Comprehensive Treatment</option>
+                            <option>Lasers</option>
+                            <option>Others</option>
                         </select>
                     </div>
                 </div>
@@ -56,8 +59,8 @@ const ContactForm = () => {
                             <img src={icon} alt="icon" />
                         </div>
                         <div className='call-text'>
-                            <p>Dental 24H Emergency</p>
-                            <h6>03 482 394 123</h6>
+                            <p>Call Us at</p>
+                            <h6>+91 620 560 8922</h6>
                         </div>
                     </div>
                 </div>

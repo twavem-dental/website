@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/footer_logo.png';
+import logo from '../../assets/logo.png';
 import './Footer.scss';
 import { FaFacebookF, FaInstagram, FaTwitter} from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -35,17 +35,17 @@ const Footer = () => {
     const footerContacts = [
         {
             'title': 'Phone Number',
-            'info': '+088 123 654 987',
+            'info': '+91 620 560 8922',
             'icon': call
         },
         {
             'title': 'Open Hour',
-            'info': '09:00 AM - 18:00 PM',
+            'info': '10:00 AM - 8:00 PM',
             'icon': time
         },
         {
             'title': 'Clinic Address',
-            'info': '35 West Dental Street California 1004',
+            'info': '3rd floor, Saraswati Basant Enclave, East Boring Canal Road, Rajapur Pul, Patna, Bihar 800001',
             'icon': location
         }
     ]
@@ -58,7 +58,7 @@ const Footer = () => {
                         <div className="footer-logo">
                             <img src={logo} alt="logo" />
                         </div>
-                        <p>Dental Care Seattle is a top-rated local practice for cosmetic, preventative, and restorative dentistry on First Hill</p>
+                        <p style = {{color: 'white'}}>Twamev Dental Clinic is a top-rated local practice for cosmetic, preventative, and restorative dentistry in Bihar </p>
 
                         <div className="social-logo">
                             <p>Follow us on</p>
@@ -102,7 +102,7 @@ const Footer = () => {
 
                 <div className="copyright-area">
                     <div className='copy-text'>
-                        <p>&copy; Dentalist. All Right Reserved</p>
+                        <p>&copy; Twamev Dental. All Right Reserved</p>
                     </div>  
                     <div className='copy-links'>
                         <ul>

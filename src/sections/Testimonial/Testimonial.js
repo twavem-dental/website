@@ -80,7 +80,7 @@ const Testimonial = () => {
                         />
                     </div>
                     <div className="col-lg-6">
-                        <p className="pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts </p>
+                        <p className="pt-5">Discover how Twamev Dental Clinic has made a difference in the lives of our patients through exceptional care and expertise.</p>
                     </div>
                 </div>
 

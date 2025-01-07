@@ -15,8 +15,11 @@ const AboutBanner = () => {
                             <div className="col-lg-5">
                                 <div className="about-banner-text">
                                     <h2>About Us</h2>
-                                    <p>We want you to feel amazing about your oral wellness. Not just twice a year, but every time you take a bite, tell a joke, laugh, or share a kiss.</p>
-
+                                    <br/>
+                                    <br/>
+                                    <p>Located in the heart of Patna on Boring Canal Road, Twamev Dental Clinic is your trusted destination for comprehensive dental care. We specialize in a wide range of treatments designed to enhance your oral health and bring out your best smile.</p>
+                                    <p>Our expert team, led by Dr. Aman Raj (BDS, MDS), is dedicated to providing top-quality care in a comfortable and professional environment. From Dental Implants and Root Canal Treatments (RCTs) to Crowns and Bridges, Teeth Cleaning and Whitening, and Painless Tooth Extractions, we excel in every aspect of modern dentistry.</p>
+                                    <p>At Twamev Dental Clinic, we combine advanced technology, personalized care, and a commitment to excellence to ensure your dental experience is nothing short of exceptional.</p>
                                     <div className="theme-btn">
                                         <Link to='/'>Contact Us</Link>
                                     </div>

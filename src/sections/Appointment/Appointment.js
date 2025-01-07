@@ -6,7 +6,7 @@ import ContactForm from '../../components/ContactForm/ContactForm';
 
 const Appointment = () => {
 
-    const mapLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.72810807265!2d-0.24168024584704212!3d51.52877184047419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sbd!4v1666254073802!5m2!1sen!2sbd'
+    const mapLink = 'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d43479.50886596056!2d85.09309880512342!3d25.62307835778204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x39ed5900369e9357%3A0x34440cab9465e79a!2s3rd%20FLoor%2C%20J4FF%2B4QX%20Saraswati%20Basant%20Enclave%2C%20E%20Boring%20Canal%20Rd%2C%20near%20Alankar%20Maruti%20showroom%2C%20Rajapur%2C%20Buddha%20Colony%2C%20Patna%2C%20Bihar%20800001!3m2!1d25.6228125!2d85.1244375!5e0!3m2!1sen!2sin!4v1735983871895!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
 
     return (
         <section className='appointment-section pb-70' data-aos="fade-up" data-aos-duration="2000">
@@ -18,7 +18,7 @@ const Appointment = () => {
 
                             <div className="location-name">
                                 <AiFillHome />
-                                <p>35 West Dental Street California 1004</p>
+                                <p>3rd Floor, Saraswati Basant Enclave, Rajapur Pul, East Boring Canal Road, Patna - 800001</p>
                             </div>
                         </div>
                     </div>
@@ -26,8 +26,8 @@ const Appointment = () => {
                         <div className="appointment-form-area">
                             <SectionTitle 
                             subTitle="BOOK APPOINTMENT"
-                            title="Care at Dentalist is pleasure"
-                            description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual"/>
+                            title="Care at Twamev Dental is a pleasure"
+                            description="Experience exceptional dental care with a personal touch at Twamev Dental Clinic, where your comfort and smile are our priorities."/>
 
                             <ContactForm />
                         </div>

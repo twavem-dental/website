@@ -5,6 +5,7 @@ const PageTitle = ({title,description}) => {
     return (
         <div className='page-title'>
             <div className="container">
+                <br/>
                 <h2>News & Articles</h2>
                 <p>Stays updated with our latest blog and news and get healthy tips & trick for oral health</p>
             </div>

@@ -5,23 +5,26 @@ import imgThree from '../../assets/blogs/3.png';
 const BlogData = [
     {
         'img': imgOne,
-        'url': 'new-technology-make-for-dental-operation',
-        'title':'New Technology Make for Dental Operation',
-        'description':'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing ',
+        'index': 1,
+        'url': 'new-technology-for-dental-operation',
+        'title':'Revolutionizing Dentistry: How New Technology is Transforming Dental Operations',
+        'description':'In the world of dentistry, technology has made incredible strides in recent years ',
         'category': 'TECHNOLOGY'
     },
      {
         'img': imgTwo,
+        'index': 2,
         'url':'regular-dental-care-make-your-smile-brighter',
-        'title':'Regular Dental care make Your Smile Brighter',
-        'description':'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing ',
+        'title':'Regular Dental Care: Make Your Smile Brighter',
+        'description':'A bright, healthy smile is often considered one of the most important features of our appearance. ',
         'category': 'DENTAL'
     },
     {
         'img': imgThree,
+        'index': 3,
         'url':'dental-hygiene-for-all-age-to-make-smile',
         'title':'Dental Hygiene for All Age to Make Smile',
-        'description':'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing ',
+        'description':'A beautiful smile is universal—it’s something that everyone, regardless of age, can enjoy and take pride in. ',
         'category': 'HYGIENE'
     }
 ];

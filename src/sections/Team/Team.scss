@@ -1,6 +1,8 @@
 @import '../../sass/colors.scss';
 
 .team-section {
+    padding: 100px 0 75px 0px;
+
     .section-title {
         h2 {
             max-width: inherit;
@@ -22,7 +24,7 @@
                 right: 0;
                 width: 100%;
                 height: 100%;
-                background: #DBEFFA;
+                background: #f7ddbf;
                 content: '';
                 z-index: -1;
                 border-radius: 10px;
