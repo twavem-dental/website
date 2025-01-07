@@ -24,11 +24,11 @@ const Expert = () => {
                                 </li>
                                 <li>
                                     <BsFillCheckCircleFill />
-                                    State of the art dental services
+                                    Personalized treatment plans
                                 </li>
                                 <li>
                                     <BsFillCheckCircleFill />
-                                    Discount on all dental treatment
+                                    State of the art dental services
                                 </li>
                             </ul>
                         </div>

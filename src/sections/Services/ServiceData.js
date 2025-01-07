@@ -17,7 +17,7 @@ const ServicesData = [
     {
         'icon': iconFour,
         'title': 'Crown & Bridges',
-        'description': 'Save your natural tooth and relieve pain with our expert root canal treatments.',
+        'description': 'Rebuild your smile with high-quality crowns and bridges designed for durability and aesthetics.',
     },
     {
         'icon': iconThree,
@@ -27,12 +27,12 @@ const ServicesData = [
     {
         'icon': iconFour,
         'title': 'Braces & Invisalign',
-        'description': 'Save your natural tooth and relieve pain with our expert root canal treatments.',
+        'description': 'Align your teeth effortlessly with traditional braces or nearly invisible Invisalign aligners.',
     },
     {
         'icon': iconFour,
         'title': 'Smile Design',
-        'description': 'Save your natural tooth and relieve pain with our expert root canal treatments.',
+        'description': 'Redefine your smile with tailored cosmetic dental treatments that enhance your confidence.  ',
     },
     {
         'icon': iconOne,
@@ -42,7 +42,7 @@ const ServicesData = [
     {
         'icon': iconFour,
         'title': 'Kids Dentistry',
-        'description': 'Save your natural tooth and relieve pain with our expert root canal treatments.',
+        'description': 'Ensure your child’s oral health with gentle and specialized pediatric dental care.',
     }    
 ]
 

@@ -52,7 +52,7 @@ const Banner = () => {
                                         </div>
                                         <div className='info-text'>
                                             <p>Dr. Aman Raj</p>
-                                            <p><small>Consultant</small></p>
+                                            <p><small>BDS, MDS</small></p>
                                         </div>
                                     </div>  
 

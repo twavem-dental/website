@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Navbar.scss';
 import logo from './../../assets/logo.png';
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
+
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+    const toggleDropdown = () => {
+        setIsDropdownOpen(!isDropdownOpen);
+    };
 
     const navbarItems = [
         {
@@ -15,7 +21,7 @@ const Navbar = () => {
             path: '/about',
         },
         {
-            name: 'Single Service',
+            name: 'Services',
             path: '/singleservice',
         },
         {
@@ -44,11 +50,35 @@ const Navbar = () => {
                             {/* Navbar Link */}
                             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                                { 
-                                navbarItems.map (navSingle =>
-                                    <li className="nav-item">
-                                        <Link className="nav-link" to={navSingle.path}>{navSingle.name}</Link>
-                                    </li>
-                                    ) 
+                                navbarItems.map (navSingle => 
+                                    {
+                                        if (navSingle.name === 'Services') {
+                                            return (
+                                            <li className="nav-item">
+                                                <Link className="nav-link" onClick={toggleDropdown}>Services</Link>
+                                                {isDropdownOpen && (
+                                                    <ul className='dropdown-menu show'>
+                                                    <li>Root Canal Treatment</li>
+                                                    <li>Implants</li>
+                                                    <li>Crown & Bridges</li>
+                                                    <li>Whitening</li>
+                                                    <li>Braces & Invisalign</li>
+                                                    <li>Smile Design</li>
+                                                    <li>Dentures</li>
+                                                    <li>Kids Dentistry</li>
+                                                    </ul>
+                                                )}
+                                            </li>
+                                            );
+                                        }   else {
+                                        return (
+                                            <li className="nav-item">
+                                                <Link className="nav-link" to={navSingle.path}>{navSingle.name}</Link>
+                                            </li>
+                                        );
+                                        }
+                                    }
+                                )
                                 }
                             </ul>
                             

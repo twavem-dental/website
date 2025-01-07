@@ -13,26 +13,32 @@ const Testimonial = () => {
     const testimonails = [
         {
             'img': imgOne,
-            'name': 'Robert Fox',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
-            'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
-        },
-        {
-            'img': imgTwo,
-            'name': 'Albert Flores',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Shubham Kumar',
+            'description' : 'I had a root canal and an implant done by Dr. Aman Raj, and both procedures were painless. The clinic is clean, well-maintained, and I highly recommend him for dental care!',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgThree,
-            'name': 'Bessie Cooper',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Kanchan Gupta',
+            'description' : 'I came in here with severe pain and left pain-free thanks to Dr. Aman Raj\'s friendly and painless treatment. Highly recommend for affordable and effective care!',
+            'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
+        },
+        {
+            'img': imgTwo,
+            'name': 'Rishikesh Kumar',
+            'description' : 'Dr Aman Raj is well behaved, knowledgeable dentist who takes time to plain treatment options very patiently. Will definitely recommend Twamev Dental for best treatment in Patna.',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgOne,
-            'name': 'Bessie Cooper',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Shiphalika Sinha',
+            'description' : 'Dr. Aman is a skilled dentist, he provides quiet comfortable and painless dental treatment,  I would definitely recommend him to anyone in Patna.',
+            'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
+        },
+        {
+            'img': imgOne,
+            'name': 'Satyam Raj',
+            'description' : 'Dr. Aman Raj is polite and humble in his approach to patients. I had a root canal treatment (RCT) done, and it was perfect. My pain subsided quickly after the procedure. Thank you, doctor! 🙏',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         }
     ]
