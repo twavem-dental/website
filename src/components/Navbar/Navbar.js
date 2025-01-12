@@ -1,15 +1,15 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Navbar.scss';
 import logo from './../../assets/logo.png';
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
 
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-    const toggleDropdown = () => {
-        setIsDropdownOpen(!isDropdownOpen);
-    };
+    // const toggleDropdown = () => {
+    //     setIsDropdownOpen(!isDropdownOpen);
+    // };
 
     const navbarItems = [
         {

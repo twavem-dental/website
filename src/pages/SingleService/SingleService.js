@@ -1,7 +1,7 @@
 import React from 'react';
 import './SingleService.scss';
 import Navbar from '../../components/Navbar/Navbar';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import ServiceData from '../../sections/Services/ServiceData';
 import ServiceBanner from '../../sections/ServiceBanner/ServiceBanner';
 import Symptoms from '../../sections/Symptoms/Symptoms';

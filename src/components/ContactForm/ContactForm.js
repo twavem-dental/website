@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import "./ContactForm.scss";
 import icon from "../../assets/banner/icons/Calling.png";
 
+import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
+
+const YOUR_SERVICE_ID = process.env.REACT_APP_YOUR_SERVICE_ID;
+const YOUR_TEMPLATE_ID = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+const YOUR_PUBLIC_KEY = process.env.REACT_APP_YOUR_PUBLIC_KEY;
+
 const ContactForm = () => {
     const [formData, setFormData] = useState({
         name: "",
@@ -11,6 +18,8 @@ const ContactForm = () => {
         message: "",
     });
 
+    const [isLoading, setIsLoading] = useState(false); // Loader state
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
@@ -18,17 +27,61 @@ const ContactForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-    
-        const response = await fetch("/.netlify/functions/emailer", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(formData),
-        });
-    
-        if (response.ok) {
-            alert("Email sent successfully!");
-        } else {
-            alert("Failed to send email. Please try again.");
+        if (
+            !formData.name ||
+            !formData.contact
+        ) {
+            Swal.fire({
+                icon: "error",
+                title: "Oops!",
+                text: "Please fill at least name and contact-number.",
+                timer: 10000,
+                timerProgressBar: true,
+            });
+            return;
+        }
+        setIsLoading(true);
+
+        try {
+            await emailjs.send(
+                YOUR_SERVICE_ID,
+                YOUR_TEMPLATE_ID,
+                {
+                    name: formData.name,
+                    mail: formData.email,
+                    number: formData.contact,
+                    service: formData.service,
+                    message: formData.message,
+                },
+                YOUR_PUBLIC_KEY
+            );
+            setFormData({
+                name: "",
+                email: "",
+                contact: "",
+                service: "",
+                message: "",
+            });
+            Swal.fire({
+                icon: "success",
+                title: "Appointment Booked!",
+                text: "Your appointment request has been sent successfully. We will contact you shortly.",
+                timer: 10000,
+                timerProgressBar: true,
+            }).then(() => {
+                window.location.reload();
+            });
+        } catch (err) {
+            console.log(err);
+            Swal.fire({
+                icon: "error",
+                title: "Oops!",
+                text: "Unable to book appointment. Please try again later or call us at +91 620 560 8922.",
+                timer: 25000,
+                timerProgressBar: true,
+            });
+        } finally {
+            setIsLoading(false);
         }
     };
 
@@ -113,8 +166,27 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="col-lg-6">
-                    <button type="submit" className="btn appointment-btn">
-                        Book an appointment
+                <button
+                        type="submit"
+                        className="btn appointment-btn"
+                        disabled={isLoading} // Disable button when loading
+                        style={{
+                            cursor: isLoading ? "not-allowed" : "pointer",
+                            opacity: isLoading ? 0.6 : 1,
+                        }}
+                    >
+                        {isLoading ? (
+                            <>
+                                <span
+                                    className="spinner-border spinner-border-sm"
+                                    role="status"
+                                    aria-hidden="true"
+                                ></span>{" "}
+                                Sending request...
+                            </>
+                        ) : (
+                            "Book an appointment"
+                        )}
                     </button>
                 </div>
                 <div className="col-lg-6">

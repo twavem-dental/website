@@ -19,6 +19,7 @@ const SingleBlog = () => {
                     <div className="row">
                         <div className="col-lg-9">
                             {
+                                // eslint-disable-next-line
                                 index == 1 && 
                                 <main className="single-blog-area">
                                     <p className="single-blog-category">
@@ -60,6 +61,7 @@ const SingleBlog = () => {
                                 </main>
                             }
                             {
+                                // eslint-disable-next-line
                                 index == 2 && 
                                 <main className="single-blog-area">
                                     <p className="single-blog-category">
@@ -94,6 +96,7 @@ const SingleBlog = () => {
                                 </main>
                             }
                             {
+                                // eslint-disable-next-line
                                 index == 3 && 
                                 <main className="single-blog-area">
                                     <p className="single-blog-category">
