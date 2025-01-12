@@ -22,7 +22,7 @@ const Navbar = () => {
         },
         {
             name: 'Services',
-            path: '/singleservice',
+            path: '/services',
         },
         {
             name: 'Blogs',
@@ -54,22 +54,25 @@ const Navbar = () => {
                                     {
                                         if (navSingle.name === 'Services') {
                                             return (
+                                            // <li className="nav-item">
+                                            //     <Link className="nav-link" onClick={toggleDropdown}>Services</Link>
+                                            //     {isDropdownOpen && (
+                                            //         <ul className='dropdown-menu show'>
+                                            //         <li>Root Canal Treatment</li>
+                                            //         <li>Implants</li>
+                                            //         <li>Crown & Bridges</li>
+                                            //         <li>Whitening</li>
+                                            //         <li>Braces & Invisalign</li>
+                                            //         <li>Smile Design</li>
+                                            //         <li>Dentures</li>
+                                            //         <li>Kids Dentistry</li>
+                                            //         </ul>
+                                            //     )}
+                                            // </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link" onClick={toggleDropdown}>Services</Link>
-                                                {isDropdownOpen && (
-                                                    <ul className='dropdown-menu show'>
-                                                    <li>Root Canal Treatment</li>
-                                                    <li>Implants</li>
-                                                    <li>Crown & Bridges</li>
-                                                    <li>Whitening</li>
-                                                    <li>Braces & Invisalign</li>
-                                                    <li>Smile Design</li>
-                                                    <li>Dentures</li>
-                                                    <li>Kids Dentistry</li>
-                                                    </ul>
-                                                )}
+                                                <Link className="nav-link" to={navSingle.path}>{navSingle.name}</Link>
                                             </li>
-                                            );
+                                            );    
                                         }   else {
                                         return (
                                             <li className="nav-item">

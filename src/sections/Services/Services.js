@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 
-const Services = () => {
+const ServicesSection = () => {
     return (
         <section className='service-section pt-100 pb-70' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
@@ -30,4 +30,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default ServicesSection;

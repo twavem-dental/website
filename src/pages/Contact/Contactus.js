@@ -10,9 +10,6 @@ const Contactus = () => {
         <>
             <section className='section-bg section-common contact-section'>
                 <Navbar />
-                <br />
-                <br />
-                <br />
                 <SectionTitle 
                     title="Contact Us"
                     description="Experience exceptional dental care with a personal touch at Twamev Dental Clinic, where your comfort and smile are our priorities."

@@ -45,11 +45,13 @@ const Testimonial = () => {
 
     // slider
     const settings = {
-        dots: false,
+        dots: true,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        autoplay: true,
         responsive: [
             {
               breakpoint: 1024,
