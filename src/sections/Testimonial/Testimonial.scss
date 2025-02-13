@@ -1,5 +1,30 @@
+@import '../../sass/colors.scss';
+
 .testimoni-slider {
-    .slick-arrow {
-        display: none !important;
+    .slick-dots {
+      bottom: 10px; // Adjust the position of the dots if needed
+      text-align: center;
+      
+      li {
+        display: inline-block;
+        margin: 0 5px;
+      }
+  
+      .slick-active {
+        button {
+          background-color: $color-blue; // Change the active dot color
+        }
+      }
+  
+      button {
+        background-color: #ccc; // Inactive dot color
+        border: none;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+        font-size: 0;
+      }
     }
-}
+  }
+  

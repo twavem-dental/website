@@ -6,7 +6,7 @@ import ContactForm from '../../components/ContactForm/ContactForm';
 
 const Appointment = () => {
 
-    const mapLink = 'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d43479.50886596056!2d85.09309880512342!3d25.62307835778204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x39ed5900369e9357%3A0x34440cab9465e79a!2s3rd%20FLoor%2C%20J4FF%2B4QX%20Saraswati%20Basant%20Enclave%2C%20E%20Boring%20Canal%20Rd%2C%20near%20Alankar%20Maruti%20showroom%2C%20Rajapur%2C%20Buddha%20Colony%2C%20Patna%2C%20Bihar%20800001!3m2!1d25.6228125!2d85.1244375!5e0!3m2!1sen!2sin!4v1735983871895!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+    const mapLink = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57558.35724919202!2d85.12537133886715!3d25.62493534466117!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5900369e9357%3A0x34440cab9465e79a!2sTwamev%20Dental%20Clinic%20%26%20Implant%20Centre%20%7C%20Best%20Dentist%20in%20Patna!5e0!3m2!1sen!2sus!4v1736681784530!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
 
     return (
         <section className='appointment-section pb-70' data-aos="fade-up" data-aos-duration="2000">
